@@ -85,7 +85,7 @@
     "@rollup/rollup-freebsd-arm64": "4.35.0",
     "@rollup/rollup-freebsd-x64": "4.35.0",
     "@rollup/rollup-linux-arm-gnueabihf": "4.35.0",
-    "@rollup/rollup-linux-arm-musleabihf": "4.35.0",
+    "@rollup/rollup-linux-arm-musleabihf": "4.36.0",
     "@rollup/rollup-linux-arm64-gnu": "4.35.0",
     "@rollup/rollup-linux-arm64-musl": "4.35.0",
     "@rollup/rollup-linux-loongarch64-gnu": "4.35.0",
