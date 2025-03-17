@@ -78,7 +78,7 @@
     "typescript": "^4.9.5"
   },
   "optionalDependencies": {
-    "@rollup/rollup-android-arm-eabi": "4.35.0",
+    "@rollup/rollup-android-arm-eabi": "4.36.0",
     "@rollup/rollup-android-arm64": "4.35.0",
     "@rollup/rollup-darwin-arm64": "4.35.0",
     "@rollup/rollup-darwin-x64": "4.35.0",
