@@ -56,9 +56,9 @@ To keep the library as little as possible much of the physics have been estimate
 
 ## Examples
 
-See src/example.tsx as an example app, bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+See src/example.tsx as an example app, bootstrapped with [Vite](https://vite.dev/guide/).
 
-This can be run locally with `npm run start`.
+This can be run locally with `npm run dev`.
 
 ### Large explosion
 
