@@ -51,8 +51,8 @@
     ]
   },
   "peerDependencies": {
-    "react": "^19.x",
-    "react-dom": "^19.x"
+    "react": "*",
+    "react-dom": "*"
   },
   "dependencies": {
     "lodash": "^4.17.21"
