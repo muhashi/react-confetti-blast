@@ -1,5 +1,6 @@
 import React, { act } from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
+import { expect, test, vi } from 'vitest';
 import ConfettiExplosion from './';
 
 const Sample = () => {
@@ -16,11 +17,14 @@ test('confetti explodes', async () => {
   render(<Sample />);
   const explode = screen.getByText(/explode/i);
   expect(explode).toBeInTheDocument();
+  
   let confetti = screen.queryByTestId('confetti');
   expect(confetti).not.toBeInTheDocument();
+  
   fireEvent.click(explode);
   confetti = screen.queryByTestId('confetti');
   expect(confetti).toBeInTheDocument();
+  
   fireEvent.click(explode);
   confetti = screen.queryByTestId('confetti');
   expect(confetti).not.toBeInTheDocument();
@@ -38,11 +42,13 @@ const OnCompleteSample = ({ onComplete }: { onComplete: () => void }) => {
 };
 
 test('onComplete is called at end of duration', async () => {
-  const onComplete = jest.fn();
+  const onComplete = vi.fn();
   render(<OnCompleteSample onComplete={onComplete} />);
   expect(onComplete).toHaveBeenCalledTimes(0);
+  
   await act(async () => new Promise(resolve => setTimeout(resolve, 400)));
   expect(onComplete).toHaveBeenCalledTimes(1);
+  
   await act(async () => new Promise(resolve => setTimeout(resolve, 600)));
   expect(onComplete).toHaveBeenCalledTimes(1);
 });
