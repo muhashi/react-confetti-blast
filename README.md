@@ -1,4 +1,4 @@
-# React Confetti Blast
+# React Confetti Blast ![NPM Downloads](https://img.shields.io/npm/dm/react-confetti-blast)
 
 The package is inspired by [this](https://codepen.io/Gthibaud/pen/ENzXbp) beautiful and oft-used confetti which uses canvas, but equally inspired by how many bad looking CSS examples there are out there. The goal was to create a super lightweight confetti component that would not require canvas, use only CSS for animation, and could also be controlled as an explosion (rather than raining confetti), without the need to write a full-blown particle generator.
 
