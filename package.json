@@ -58,7 +58,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-commonjs": "^29.0.0",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@testing-library/jest-dom": "^6.6.3",
@@ -69,8 +69,8 @@
     "@types/node": "^24.1.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react": "^4.3.4",
-    "jsdom": "^26.0.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "jsdom": "^27.2.0",
     "prettier": "^3.5.3",
     "pretty-quick": "^4.1.1",
     "react": "^19.0.0",
@@ -80,7 +80,7 @@
     "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.8.2",
     "vite": "^7.0.6",
-    "vitest": "^3.0.9"
+    "vitest": "^4.0.9"
   },
   "optionalDependencies": {
     "@rollup/rollup-android-arm-eabi": "4.53.2",
