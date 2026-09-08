@@ -22,5 +22,5 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm install
+      - run: npm install --legacy-peer-deps # idk node 22 needs this for some reason
       - run: npm test
